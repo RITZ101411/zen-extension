@@ -9,6 +9,6 @@ document.body.appendChild(root)
 
 createRoot(root).render(
   <StrictMode>
-    <h1>POP</h1>
+    <h1>POPUP</h1>
   </StrictMode>
 )

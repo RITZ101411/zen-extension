@@ -11,6 +11,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         popup: join(__dirname, 'src/popup/index.html'),
+        background: join(__dirname, 'src/background/index.tsx'),
       },
       output: {
         entryFileNames: 'assets/[name].js'
